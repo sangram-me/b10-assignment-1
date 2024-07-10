@@ -49,6 +49,7 @@ nav .navbtn button{
        padding: 12px;
 }
 .banner p{
+       color: rgba(13, 19, 33, 0.7);
        line-height: 30px;
        text-align: center;
        padding: 12px;
