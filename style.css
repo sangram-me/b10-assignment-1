@@ -63,6 +63,10 @@ nav .navbtn button{
        border-radius: 8px;
        margin-top: 12px;
 }
+.banner button a{
+       color: white;
+       text-decoration: none;
+}
 .why{
        max-width: 1140px;
        margin: 50px auto 0px;
@@ -136,7 +140,6 @@ nav .navbtn button{
        border-radius: 20px;
 }
 .target{
-       background-color: chartreuse;
        max-width: 1140px;
        margin: 40px auto;
 }
@@ -159,7 +162,7 @@ nav .navbtn button{
        padding-bottom: 17px;
        color: rgba(13, 19, 33, 0.7);
 }
-.card a{
+.card a, .more{
        color: black;
        font-weight: bold;
 }
@@ -171,4 +174,84 @@ nav .navbtn button{
 }
 .card3{
        background-color: #fffdf2;
+}
+.nexttarget{
+       max-width: 1140px;
+       margin: 0px auto;
+}
+.ndm{
+       margin-top: 20px;
+}
+.nextdiv{
+       margin: 20px;
+       padding: 40px;
+       display: flex;
+       border: 1px solid;
+       border-radius: 10px;
+}
+.nextdivimg{
+       margin: auto 30px ;
+       margin-left: 0px;
+}
+.nextdivcontent h2{
+       padding-bottom: 8px;
+}
+.nextdivcontent p{
+       padding-bottom: 20px;
+       line-height: 24px;
+}
+.support{
+       border-radius: 15px;
+       margin: 50px auto;
+       background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/handshake.jpg');
+       max-width: 1140px;
+       height: 314px;
+       background-size: cover;
+       background-position: center;
+}
+.support h2, .support p{
+       text-align: center;
+       color: white;
+}
+.support h2{
+       font-size: 32px;
+       padding-top: 60px;
+       padding-bottom: 20px;
+}
+.support p{
+       padding-bottom: 50px;
+}
+.support input{
+
+}
+input[type="text"]{
+       padding: 15px;
+       border-radius: 5px;
+       width: 400px;
+}
+input[type="submit"]{
+       font-weight: bold;
+       padding: 15px;
+       border-radius: 5px;
+       width: 80px;
+       cursor: pointer;
+}
+.form{
+       text-align: center;
+}
+footer{
+
+       max-width: 1140px;
+       display: flex;
+       margin: 20px auto;
+       justify-content: space-between;
+}
+.ftext{
+       font-weight: bold;
+       margin: auto 0px;
+}
+.fimg{
+       display: inline-block;
+       padding: auto;
+       text-align: right;
 }
